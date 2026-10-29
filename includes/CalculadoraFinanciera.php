@@ -1,12 +1,14 @@
 <?php
+define('ACCESO_PERMITIDO', true);
 /**
  * Biblioteca de Clases Financieras
  */
 
-// TODO: Ejercicio 1.1 - Implementar verificacion de constante ACCESO_PERMITIDO
+//TODO: Ejercicio 1.1 - Implementar verificacion de constante ACCESO_PERMITIDO
 if (!defined('ACCESO_PERMITIDO')) {
     http_response_code(403);
     die("Acceso directo no permitido.");
+    
 }
 
 class CalculadoraFinanciera {
