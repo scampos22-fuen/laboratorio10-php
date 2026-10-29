@@ -47,7 +47,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         }
     } else {
         $mensajeError = "Por favor, ingrese valores validos en todos los campos.";
-    }
+    } 
 }
 ?>
 <!DOCTYPE html>
